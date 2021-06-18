@@ -12,20 +12,12 @@ int main(void) {
   assert (max(y, 1) == 5);
   printf("Max: passed\n");
   }
-int max(int f[],int count)
-{
-  for(int a=0;a<count;a++)
-  {
-    for(int b=0;b<count-1-a;b++)
-    {
-      if(f[b]>f[b+1])
-      {int c=0;
-         c=f[b+1];
-        f[b+1]=f[b];
-        f[b]=c;
-      }
-    }
-  }
-  int M=f[count-1];
-  return M;
+int max(const int arr[],int n){
+	int Max=arr[0];
+	for(int i=0;i<n;i++){
+		if(arr[i]>Max){
+			Max=arr[i];
+		}
+	}
+	return Max;
 }
