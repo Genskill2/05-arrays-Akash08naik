@@ -28,19 +28,20 @@ int main(void) {
   }
   return x[cout-1];}*/
 
-void int max(int y[],int count)
+void int max(int f[],int count)
 {
   for(int a;a<count;a++)
   {
     for(int a;b<count-1-a;b++)
     {
-      if(y[b]>y[b+1])
+      if(f[b]>f[b+1])
       {
-        int c=y[b+1];
-        y[b+1]=y[b];
-        y[b]=c;
+        int c=f[b+1];
+        f[b+1]=f[b];
+        f[b]=c;
       }
     }
   }
-  return y[count-1];
+  int max=f[count-1];
+  return max;
 }
