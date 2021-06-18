@@ -27,8 +27,7 @@ int main(void) {
     }
   }
   return x[cout-1];}*/
-
-void int max(int f[],int count)
+int max(int f[],int count)
 {
   for(int a;a<count;a++)
   {
