@@ -3,13 +3,13 @@
 
 
 int max(const int arr[],int n){
-	int M=arr[0];
+	int Max=arr[0];
 	for(int i=0;i<n;i++){
-		if(arr[i]>M){
-			M=arr[i];
+		if(arr[i]>Max){
+			Max=arr[i];
 		}
 	}
-	return M;
+	return Max;
 }
 
 int min(const int arr[],int n){
