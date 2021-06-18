@@ -2,15 +2,12 @@
 #include <stdio.h>
 
 
-int max(const int arr[],int n){
-	int Max=arr[0];
-	for(int i=0;i<n;i++){
-		if(arr[i]>Max){
-			Max=arr[i];
-		}
-	}
-	return Max;
-}
+int max(int max[],int a){
+  int i;
+  for(i=1;i<a;i++){
+  max[0]=max[0]>max[i]?(max[0]):(max[i]);
+  }
+  return max[0];}
 
 int min(const int arr[],int n){
 	int M=arr[0];
