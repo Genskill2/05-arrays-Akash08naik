@@ -41,6 +41,6 @@ int max(int f[],int count)
       }
     }
   }
-  int max=f[count-1];
-  return max;
+  int Max=f[count-1];
+  return Max;
 }
