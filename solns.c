@@ -7,7 +7,7 @@ int max(int arr[],int count)
   {
     for(int b;b<count-1-a;b++)
     {
-      if(arr[i]>arr[i+1])
+      if(arr[b]>arr[b+1])
       {
         m=arr[b+1];
         arr[b+1]=arr[b];
