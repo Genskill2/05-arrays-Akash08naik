@@ -31,7 +31,7 @@ int max(int f[],int count)
 {
   for(int a;a<count;a++)
   {
-    for(int a;b<count-1-a;b++)
+    for(int b;b<count-1-a;b++)
     {
       if(f[b]>f[b+1])
       {
