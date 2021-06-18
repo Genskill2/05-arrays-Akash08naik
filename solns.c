@@ -5,7 +5,7 @@
 
 int max(int max[],int a){
   int i;
-  for(i=1;i<a;i++){
+  for(i=0;i<a;i++){
   max[0]=max[0]>max[i]?(max[0]):(max[i]);
   }
   return max[0];}
